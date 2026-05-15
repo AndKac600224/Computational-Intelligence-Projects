@@ -45,12 +45,12 @@ Oraz zmienna wyjściowa – **BMI**:
 
 Oszacowane przedziały zostały stworzone na podstawie Tabela 1 oraz osobistych decyzji (dot. nachodzenia na siebie funkcji przynależności). Skrajne wartości lingwistyczne dla 3 powyższych zmiennych (2 input + 1 output) są kształtem trapezoidalne, natomiast wszystkie wartości pomiędzy są reprezentowane przez trójkątne funkcje przynależności. Poniżej zostały przedstawione uzupełnienia oraz zobrazowania przedstawionych powyżej wprowadzonych założeń i wartości parametrów:
 
-![Wykres 1. Funkcja przynależności dla Wagi](assets/fpweight.png)
-*(Wykres 1. Funkcja przynależności dla Wagi)*
-![Wykres 2. Funkcja przynależności dla Wzrostu](assets/fpheight.png)
-*(Wykres 2. Funkcja przynależności dla Wzrostu)*
-![Wykres 3. Funkcja przynależności dla BMI](assets/fpbmi.png)
-*(Wykres 3. Funkcja przynależności dla BMI)*
+![Wykres 1. Funkcja przynależności dla Wagi](assets/fpweight.png)  
+*(Wykres 1. Funkcja przynależności dla Wagi)*  
+![Wykres 2. Funkcja przynależności dla Wzrostu](assets/fpheight.png)  
+*(Wykres 2. Funkcja przynależności dla Wzrostu)*  
+![Wykres 3. Funkcja przynależności dla BMI](assets/fpbmi.png)  
+*(Wykres 3. Funkcja przynależności dla BMI)*  
 
 Kluczem przeprowadzenia procesu logiki rozmytej jest nachodzenie na siebie wykresów (trapezoidalnych/trójkątnych) poszczególnych zmiennych, aby zobrazować niepewność co do sztywnego wnioskowania na granicach poszczególnych przedziałów miary BMI (zgodnie z Tabela 1). Dzięki temu wnioskowanie rozmyte ma sens – w przeciwnym wypadku algorytm dawałby zbliżone lub identyczne rezultaty, co Tabela 1.
 
