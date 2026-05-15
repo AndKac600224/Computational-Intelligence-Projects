@@ -20,7 +20,7 @@ $$
 Po dalszych przekształceniach wzoru 1.1 otrzymujemy:
 
 $$
-\pi = 4 \cdot\frac{t}{w}
+\pi = 4 \cdot \frac{t}{w}
 $$
 
 Z otrzymanej powyżej zależności wynika fakt, iż liczbę $\pi$ można wyestymować na zadanym obszarze jako iloraz poczwórnej ilości punktów trafionych oraz wszystkich wylosowanych punktów (zakładając równoważność stosunku odpowiednich pól do stosunku ilości odpowiednich typów punktów).
