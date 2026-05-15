@@ -6,11 +6,12 @@ This repository is a curated collection of projects focused on computational int
 
 | Project Name | Description | Link |
 | :--- | :--- | :--- |
-| **Monte Carlo PI Estimation** | Probabilistic estimation of the $\pi$ constant using random point sampling. Includes convergence analysis and detailed visualizations for $N$ up to 100,000. | [View Project](./Monte-Carlo-PI) |
+| **Monte Carlo PI Estimation** | Probabilistic estimation of the π constant using random point sampling. Includes convergence analysis and detailed visualizations for N up to 100,000. | [View Project](./MonteCarloPI) |
+| **Genetic Traveling Salesman (TSP)** | Solving the NP-hard TSP problem using Genetic Algorithms (Ordered Crossover, Dynamic Mutation). Features real-time route optimization visualization. | [View Project](./GeneticTSP) |
 
 ## Tech Stack
 * **Language**: Python 3.12
-* **Libraries**: `NumPy`, `Pandas`, `Matplotlib`, `Seaborn`
+* **Libraries**: `NumPy`, `Pandas`, `Matplotlib`, `Seaborn`, `Random`, `time`
 
 --- 
 
