@@ -1,5 +1,5 @@
 # PREZENTACJA ALGORYTMU MONTE CARLO NA PRZYKŁADZIE ESTYMACJI LICZBY PI
-**Kacper Andrzejewski 419925, IAD rok 3, gr. 1**
+**Kacper Andrzejewski**
 
 ## Etap 1. Wstęp i opis działania
 Algorytm Monte Carlo został opracowany przez węgierskiego wielkiego matematyka Johna von Neumanna wraz z Stanisławem Ulamem podczas realizacji projektu Manhattan (stworzenie pierwszej bomby atomowej) w latach 40. XX wieku.
