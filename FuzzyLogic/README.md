@@ -20,7 +20,8 @@ gdzie:
 
 Jego obliczenie jest na tyle trywialne, że może dokonać tego każdy człowiek zaznajomiony z powyższymi parametrami jego ciała a następnie dokonać prostego wnioskowania w oparciu o ogólnodostępne źródła interpretacji wartości tego wskaźnika. Poniżej znajduje się grafika obrazująca tabelę z wymaganymi informacjami dot. wspomnianej interpretacji:
 
-*Tabela 1. Źródło: https://pl.wikipedia.org/wiki/Wskaźnik_masy_ciała*
+![Tabela 1. Źródło: https://pl.wikipedia.org/wiki/Wskaźnik_masy_ciała](bmitable.png)
+*(Tabela 1. Źródło: https://pl.wikipedia.org/wiki/Wskaźnik_masy_ciała)*
 
 Jednakże, jak zostało wspomniane wcześniej, sztywne trzymanie się konkretnych wartości co do 2. miejsca po przecinku jest nieodpowiednie (np. osoba o wskaźniku równym 25.0 jest zaklasyfikowana jako osoba z nadwagą, podczas gdy osoba o wskaźniku o 0.01 niższym posiada już pożądaną masę ciała). Dlatego też kluczowe jest tu zastosowanie wnioskowania rozmytego, aby poprawnie zaklasyfikować daną osobę do odpowiedniej kategorii na podstawie jej parametrów fizycznych.
 
