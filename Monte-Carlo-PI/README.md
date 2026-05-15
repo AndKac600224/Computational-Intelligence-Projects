@@ -12,11 +12,11 @@ Jednym z klasycznych przykładów zastosowania algorytmu Monte Carlo jest estyma
 
 Ilość iteracji tj. przeprowadzonych losowań $N$ jest dodatnią liczbą naturalną – im większą, tym dokładniejszy ostateczny wynik (dokładniejsza estymacja). Jeśli przez $t$ oznaczymy ilość trafionych punktów (tych, które znajdują się wewnątrz okręgu – ćwiartki), a przez $w$ ilość wszystkich punktów, które zostały wylosowane (ostatecznie $N$) (zakładamy, iż stosunek pola ćwiartki do pola kwadratu o boku $r$ – ćwiartki układu współrzędnych – jest równoważny stosunkowi $t$ do $w$), to w poniższy sposób można otrzymać wzór na liczbę $\pi$:
 
-$$rac{rac{1}{4} \pi r^2}{r^2} = rac{t}{w}$$  (1.1)
+$$ rac{rac{1}{4} \pi r^2}{r^2} = rac{t}{w} $$  (1.1)
 
 Po dalszych przekształceniach wzoru 1.1 otrzymujemy:
 
-$$\pi = 4 \cdot rac{t}{w}$$
+$$ \pi = 4 \cdot rac{t}{w} $$
 
 Z otrzymanej powyżej zależności wynika fakt, iż liczbę $\pi$ można wyestymować na zadanym obszarze jako iloraz poczwórnej ilości punktów trafionych oraz wszystkich wylosowanych punktów (zakładając równoważność stosunku odpowiednich pól do stosunku ilości odpowiednich typów punktów).
 
