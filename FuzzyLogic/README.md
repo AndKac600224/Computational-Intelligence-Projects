@@ -45,8 +45,11 @@ Oraz zmienna wyjściowa – **BMI**:
 
 Oszacowane przedziały zostały stworzone na podstawie Tabela 1 oraz osobistych decyzji (dot. nachodzenia na siebie funkcji przynależności). Skrajne wartości lingwistyczne dla 3 powyższych zmiennych (2 input + 1 output) są kształtem trapezoidalne, natomiast wszystkie wartości pomiędzy są reprezentowane przez trójkątne funkcje przynależności. Poniżej zostały przedstawione uzupełnienia oraz zobrazowania przedstawionych powyżej wprowadzonych założeń i wartości parametrów:
 
+![Wykres 1. Funkcja przynależności dla Wagi](assets/fpweight.png)
 *(Wykres 1. Funkcja przynależności dla Wagi)*
+![Wykres 2. Funkcja przynależności dla Wzrostu](assets/fpheight.png)
 *(Wykres 2. Funkcja przynależności dla Wzrostu)*
+![Wykres 3. Funkcja przynależności dla BMI](assets/fpbmi.png)
 *(Wykres 3. Funkcja przynależności dla BMI)*
 
 Kluczem przeprowadzenia procesu logiki rozmytej jest nachodzenie na siebie wykresów (trapezoidalnych/trójkątnych) poszczególnych zmiennych, aby zobrazować niepewność co do sztywnego wnioskowania na granicach poszczególnych przedziałów miary BMI (zgodnie z Tabela 1). Dzięki temu wnioskowanie rozmyte ma sens – w przeciwnym wypadku algorytm dawałby zbliżone lub identyczne rezultaty, co Tabela 1.
@@ -54,7 +57,8 @@ Kluczem przeprowadzenia procesu logiki rozmytej jest nachodzenie na siebie wykre
 ### ETAP 2 – Przygotowanie bazy reguł
 Aby system dokonywał poprawnego wnioskowania potrzebuje ustalonej bazy reguł (systemu wnioskowania), dzięki którym będzie sprawdzał wartości klas wejściowych, przyporządkowywał je do odpowiednich zmiennych na podstawie ustalonych uprzednio przedziałów, a następnie dopasowywał odpowiednie reguły, które pozwolą otrzymać żądaną interpretację wskaźnika BMI oraz jego wartość. Utworzone przeze mnie reguły są efektem własnej interpretacji oraz osobistego wnioskowania na podstawie logiki natury i doświadczeń. Poniżej znajduje się kompletna baza reguł złożona z 12 zasad, ponieważ 3 typy klasy Wzrost * 4 typy klasy Waga prowadzi do otrzymania 12 możliwych wyników:
 
-*Tabela 2. Baza reguł*
+![Tabela 2. Baza reguł](assets/ruletable.png)
+*(Tabela 2. Baza reguł)*
 
 Wskazana zmienna Weight jest wbudowanym parametrem od aplikacji Fuzzy Logic Designer, która umożliwia ustalenie priorytetów zasad podczas wnioskowania, lecz w klasycznych modelach Mamdaniego dla tego typu problemów standardowo przyjmuje się równe wagi dla wszystkich reguł (co zrealizowano również w tym projekcie).
 
