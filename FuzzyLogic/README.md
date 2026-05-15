@@ -7,6 +7,11 @@ Tematem wykonanego przeze mnie projektu jest wykorzystanie procesów logiki rozm
 ## 2. Użyte technologie
 Podczas wykonywania projektu użyłem programu MATLAB 2024R wraz z zainstalowanym rozszerzeniem wewnętrznym do przeprowadzania wnioskowania rozmytego, generowania wykresów funkcji przynależności i przestrzennych oraz tworzenie bazy reguł niezbędnej do działania algorytmu – Fuzzy Logic Designer. Zastosowanym systemem FIS był Mamdani Type-1.
 
+### Struktura plików:
+* **mamdanitype1.fis** – główny plik konfiguracji systemu wnioskowania rozmytego (FIS), zawierający definicje zmiennych wejściowych (waga, wzrost), wyjściowych (BMI) oraz bazę 12 reguł.
+* **README.md** – niniejsze sprawozdanie.
+* **assets/** – folder zawierający wykresy funkcji przynależności oraz wizualizacje procesów wnioskowania.
+
 ## 3. Teoria
 Wskaźnik BMI, którego zastosowanie w Fuzzy Logic jest tematem tego projektu, jest trywialną obliczeniowo miarą, ponieważ opisywany jest poniższym wzorem:
 
