@@ -75,7 +75,7 @@ Po osiągnięciu warunku zakończenia algorytmu należy przejść do zobrazowani
 
 Poniżej została przedstawiona animacja GIF obrazująca drogę jaką wybiera algorytm dla komiwojażera tzn. w każdej generacji pokazana została najbardziej optymalna zgodnie z listą rankingową, złożoną z $M=30$ chromosomów, trasa poprzez wszystkie $N=50$ punktów. Oczywiście punkt startu/mety również jest dobierany losowo, tzn. jako punkt znajdujący się na locusie nr 1 obecnego chromosomu. Obok nr generacji nad wykresem, wypisano również dystans aktualnie (w danej populacji) obrazowanej trasy (tj. najbardziej optymalny – najniższy – wynik sumy dystansów pomiędzy miastami). Warunkiem zakończenia jest uzyskanie $K=500$ populacji w iteracji, ponieważ jest to PRAWDOPODOBNIE wystarczająca ilość do wygenerowania, aby zaszła dostateczna optymalizacja, co zostanie pokazane później.
 
-![Animacja ewolucji trasy w cyklu K populacji](assets/animacja.gif)
+![Animacja ewolucji trasy w cyklu K populacji](assets/Animacja.gif)
 *(Animacja GIF – ewolucja optymalnej trasy w cyklu K populacji)*
 
 Następną prezentacją wyników jest tabela wykonana w programie MS Excel, gdzie zostały wpisane wyniki procentowych różnic pomiędzy (stałą) początkową wartością sumy dystansu euklidesowego a wielkością finalną z $K$-tej populacji. Wyniki zostały wygenerowane dla różnych wartości parametrów tj. Probability of crossover (%) - prawdopodobieństwo zrealizowania krzyżowania oraz Probability of mutation – prawdopodobieństwo zrealizowania mutacji. Parametry $K$ – Number of populations oraz $N$ – ilość punktów do odwiedzenia (genów w chromosomie) i $M$ – ilość chromosomów (osobników) w pojedynczej populacji są stałe i wynoszą odpowiednio 500, 50, 30.
