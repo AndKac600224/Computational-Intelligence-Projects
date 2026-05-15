@@ -38,7 +38,7 @@ Dodatkowo wykonałem wykresy: zobrazowanie wylosowanych punktów w układzie wsp
 
 | N = 10000 | N = 100000 |
 |:---:|:---:|
-| ![N=10000](assets/circle10000.jpg) | ![N=100000](assets/circle100000.jpg) |
+| ![N=10000](assets/circle10000.png) | ![N=100000](assets/circle100000.png) |
 | *(Rys. 3.3)* | *(Rys. 3.4)* |
 
 Na powyższych wykresach zostały zobrazowane wszystkie punkty dla poszczególnej ilości losowań $N$ na 1. ćwiartce układu współrzędnych. Zostały one oddzielone ćwiartką okręgu (czarna linia) oraz odpowiednio pokolorowane – $t$ – trafione, niebieskie, oraz nietrafione, pomarańczowe. Ponadto w tytułach wykresów podałem wyestymowaną, końcową wartość liczby $\pi$ w N-tej iteracji.
