@@ -1,6 +1,6 @@
 # Computational Intelligence Projects
 
-This repository is a curated collection of projects focused on computational intelligence, probabilistic modeling, and data analysis. Each project explores different algorithmic approaches to solving complex mathematical and analytical problems. All README.md files for every project are written in Polish language (including comments in `main.py` files)
+This repository is a curated collection of projects focused on computational intelligence, probabilistic modeling, and data analysis. Each project explores different algorithmic approaches to solving complex mathematical and analytical problems. All `README.md` files for every project are written in Polish language (including comments in `main.py` files)
 
 ## Projects
 
